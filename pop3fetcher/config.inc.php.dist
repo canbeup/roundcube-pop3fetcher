@@ -5,3 +5,6 @@
 
 	//Auto check the new version (disabled by default)
 	$config['automatically_check_for_updates'] = false;
+
+	//Fetch method, can be 'cron', 'refesh', 'folder_change' or array
+	$config['synch_method'] = array('refesh', 'folder_change');
